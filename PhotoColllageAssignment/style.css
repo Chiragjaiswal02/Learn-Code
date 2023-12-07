@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    font-size:xx-large;
+    background-color: white;
+    font-weight: 500;
+}
+
+.mainContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #525252;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 70vw;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.upper,.lower{
+    display: flex;
+}
+
+.first{
+    width: 20vw;
+    height: 50vh;
+}
+.second{
+    width: 30vw;
+    height: 50vh;
+}
+.third{
+    width: 20vw;
+    height: 50vh;
+}
+.fourth{
+    width: 35vw;
+    height: 30vh;
+}
+.fifth{
+    width: 35vw;
+    height: 30vh;
+}
